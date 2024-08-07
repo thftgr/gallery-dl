@@ -14,7 +14,7 @@ env:
 jobs:
   build:
 
-    if: github.repository == 'mikf/gallery-dl'
+    if: github.repository == 'thftgr/gallery-dl'
     runs-on: ${{ matrix.os }}
     defaults:
       run:
