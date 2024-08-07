@@ -104,4 +104,4 @@ jobs:
         artifacts: "executable-*/*"
         allowUpdates: true
         makeLatest: true
-        #token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ auth.REPO_TOKEN }}
