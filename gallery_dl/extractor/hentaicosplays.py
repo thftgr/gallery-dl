@@ -19,7 +19,7 @@ class HentaicosplaysGalleryExtractor(GalleryExtractor):
     filename_fmt = "{filename}.{extension}"
     archive_fmt = "{title}_{filename}"
     pattern = r"((?:https?://)?(?:\w{2}\.)?" \
-              r"(hentai-cosplays|hentai-img|porn-images-xxx)\.com)/" \
+              r"(hentai-cosplays|hentai-cosplay-xxx|hentai-img|porn-images-xxx)\.com)/" \
               r"(?:image|story)/([\w-]+)"
     example = "https://hentai-cosplays.com/image/TITLE/"
 
