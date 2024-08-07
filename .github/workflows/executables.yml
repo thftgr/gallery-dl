@@ -97,7 +97,7 @@ jobs:
 
     - uses: ncipollo/release-action@v1
       with:
-        owner: gdl-org
+        owner: thftgr
         repo: builds
         tag: ${{ env.DATE }}
         bodyFile: body.md
