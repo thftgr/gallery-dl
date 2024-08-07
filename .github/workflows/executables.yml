@@ -104,4 +104,4 @@ jobs:
         artifacts: "executable-*/*"
         allowUpdates: true
         makeLatest: true
-        token: ${{ auth.REPO_TOKEN }}
+        token: ${{ secrets.REPO_TOKEN }}
